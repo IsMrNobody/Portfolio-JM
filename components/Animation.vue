@@ -20,7 +20,7 @@ export default {
             loop: true,
             autoplay: false,
             name: 'tierra',
-            path: '/tierra.json' // the path to the animation json
+            path: 'https://assets4.lottiefiles.com/packages/lf20_ctckillf.json' // the path to the animation json
         })
     },
     methods: {
