@@ -1,0 +1,86 @@
+<template>
+  <v-row>
+    <!-- <v-col>
+      <Interactivity />
+    </v-col> -->
+    <v-col cols sm="6">
+      <Card1 />
+    </v-col>
+    <v-col cols sm="6">
+      <Card2 />
+    </v-col>
+    <transition name="cart">
+      <v-col v-if="show">
+        <Skills />
+      </v-col>
+    </transition>
+    <transition name="cart">
+      <v-col cols="12" v-if="show">
+        <Slider />
+      </v-col>
+    </transition>
+    <transition name="cart">
+      <v-col cols v-if="show">
+        <Mensajeria />
+        <v-col cols sm="9" class="mx-auto mt-5">
+          <Animation4 class="mt-5 mb-5" />
+          <Redes />
+        </v-col>
+        <p class="text-center">millanquintana9@gmail.com</p>
+      </v-col>
+    </transition>
+  </v-row>
+</template>
+
+<script>
+import Skills from '@/components/Skills'
+import Redes from '@/components/Redes'
+import Animation4 from '@/components/Animation4'
+// import Inter0activity from '@/components/Interactivity'
+import Card1 from '@/components/Card1'
+import Card2 from '@/components/Card2'
+import Slider from '@/components/Slider'
+import Mensajeria from '@/components/Mensajeria'
+// import DialogMoralis from '@/components/DialogMoralis'
+export default {
+  components: {
+    Card1,
+    Card2,
+    Slider,
+    Mensajeria,
+    Skills,
+    Redes,
+    Animation4
+    // DialogMoralis,
+    // Interactivit0y
+  },
+  mounted() {
+    setTimeout(() => {
+      this.show = true
+    }, 1000);
+  },
+  data: () => ({
+    show: false
+  }),
+}
+</script>
+
+<style scoped>
+p {
+  opacity: 0.7;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.cart-enter-active {
+  animation: card 2s;
+}
+@keyframes card {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+</style>
