@@ -3,7 +3,7 @@
       <v-card elevation="10" v-if="show" class="ma-5 bg" outlined max-width="600">
           <div class="black">
             <!-- <Animation2 class="posi" /> -->
-            <v-img src="/marco.png" class="posi" height="100%"></v-img>
+            <v-img src="https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Fmarco.png?alt=media&token=5d02f6a7-e0b9-4981-8e0d-9cb16e7a3e01" class="posi" height="100%"></v-img>
             <v-col class="abs">
               <div class="text-center">
                 <v-row justify="center mt-4">

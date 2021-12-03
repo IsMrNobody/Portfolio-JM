@@ -21,7 +21,7 @@ export default {
             loop: true,
             autoplay: false,
             name: 'perfil',
-            path: '/rayos.json' // the path to the animation json
+            path: 'https://assets3.lottiefiles.com/packages/lf20_z6c2xbbg.json' // the path to the animation json
         })
         setTimeout(() => {
             this.play()

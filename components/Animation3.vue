@@ -20,7 +20,7 @@ export default {
             loop: true,
             autoplay: false,
             name: 'el',
-            path: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Fjsonfiles%2Fjoker.json?alt=media&token=104719b5-fa53-480f-9717-b1b99dd1ae26' // the path to the animation json
+            path: 'https://assets4.lottiefiles.com/packages/lf20_g5vyokk5.json' // the path to the animation json
         })
     },
     methods: {

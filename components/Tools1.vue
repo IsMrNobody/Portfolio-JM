@@ -51,28 +51,28 @@
       model: null,
       logos: [
           {
-              logo: '/vs.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fvs.png?alt=media&token=4fe2936a-92cf-405b-9be7-652b8fba920b'
           },
           {
-              logo: '/html.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fhtml.png?alt=media&token=80bbb096-88d9-487f-a7b5-c8ac99b9c7cb'
           },
           {
-              logo: '/css.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fcss.png?alt=media&token=257b8250-94ea-4aef-8305-bebbd6069984'
           },
           {
-              logo: '/js.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fjs.png?alt=media&token=c72d1baf-23b1-4752-9028-0d98caffa4d6'
           },
           {
-              logo: '/no.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fno2.png?alt=media&token=96082d04-f376-4ff7-9d82-185682a8bc00'
           },
           {
-              logo: '/vu.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fvu.png?alt=media&token=3bd96db0-816b-4402-82dd-8e73f608fe06'
           },
           {
-              logo: '/vy.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fvy.png?alt=media&token=522944b0-e967-4b08-960a-ac502c4f9bc6'
           },
           {
-              logo: '/nu.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fnu2.png?alt=media&token=732ba568-ade4-4bf7-becb-ceb48ec57740'
           }
       ]
     }),

@@ -20,7 +20,7 @@ export default {
             loop: true,
             autoplay: false,
             name: 'el2',
-            path: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Fjsonfiles%2Fcodigo1.json?alt=media&token=6699133a-bbb0-41de-adb2-8278756b7549' // the path to the animation json
+            path: 'https://assets5.lottiefiles.com/packages/lf20_bnmdy6lx.json' // the path to the animation json
         })
     },
     methods: {

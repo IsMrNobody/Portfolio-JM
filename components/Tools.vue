@@ -52,10 +52,10 @@
       model: null,
       logos: [
           {
-              logo: '/c4d.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fc4d.png?alt=media&token=0616ff3a-730e-42d9-beef-9c932c303fbd'
           },
           {
-              logo: '/sp.png'
+              logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fsp.png?alt=media&token=6c459162-2040-4176-8b05-032049ddd62e'
           }
       ]
     }),
