@@ -6,6 +6,7 @@
                     data-tilt-max-glare="0.3"
                     data-tilt-glare
                 >
+            <nuxt-link to="/elements">
                     <!-- data-tilt-full-page-listening -->
                     <v-card
                         height="340"
@@ -16,6 +17,7 @@
                         <Animation class="ani fill-height" />
                         </v-card-text>
                     </v-card>
+            </nuxt-link>
                 </Tilt>
                 <Tilt
                     data-tilt-max-glare="0.3"
