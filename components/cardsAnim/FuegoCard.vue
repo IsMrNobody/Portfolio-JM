@@ -1,5 +1,5 @@
 <template>
-    <v-col class="text-center">
+    <v-row justify="center" class="text-center">
         <Tilt class="bgi">
             <!-- data-tilt-full-page-listening -->
             <p>FIRE</p>
@@ -18,7 +18,7 @@
                 <v-btn disabled small color="orange" @click="death()">death</v-btn>
             </v-col>
         </Tilt>
-    </v-col>
+    </v-row>
 </template>
 
 <script>

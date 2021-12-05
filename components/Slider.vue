@@ -62,7 +62,7 @@
                   {{ works[model].name }}
                 </h3>
                 <p>{{ works[model].des }}</p>
-                <v-btn large outlined color="orange">IR</v-btn>
+                <v-btn :to="works[model].web" large outlined color="orange">IR</v-btn>
             </v-col>
           </v-row>
             <v-col class="d-flex justify-end">
@@ -108,7 +108,7 @@
           name: 'Elemenst Game',
           des: 'Diseño y Animacion de personajes',
           bg: `${'bgwork3'}`,
-          web: ''
+          web: '/elements'
         }
       ]
     }),

@@ -1,5 +1,5 @@
 <template>
-    <v-col class="text-center">
+    <v-row justify="center" class="text-center">
         <Tilt class="bgi">
             <!-- data-tilt-full-page-listening -->
             <p>EARTH</p>
@@ -18,7 +18,7 @@
                 <v-btn small color="orange" @click="death()">death</v-btn>
             </v-col>
         </Tilt>
-    </v-col>
+    </v-row>
 </template>
 
 <script>
@@ -72,7 +72,7 @@ export default {
 }
 .bg:hover {
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgb(197, 186, 23) 10%, rgba(28,27,26,1) 49%, rgba(0,0,0,1) 90%);
+    background: linear-gradient(0deg, rgb(197, 130, 23) 10%, rgba(28,27,26,1) 49%, rgba(0,0,0,1) 90%);
 }
 .bg {
     transition: 1s;
