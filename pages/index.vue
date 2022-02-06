@@ -1,8 +1,8 @@
 <template>
   <v-row>
-    <!-- <v-col>
-      <Interactivity />
-    </v-col> -->
+    <v-row>
+      <Alert />
+    </v-row>
     <v-col cols sm="6">
       <Card1 />
     </v-col>
@@ -15,12 +15,12 @@
       </v-col>
     </transition>
     <transition name="cart">
-      <v-col cols="12" v-if="show">
+      <v-col v-if="show" cols="12">
         <Slider />
       </v-col>
     </transition>
     <transition name="cart">
-      <v-col cols v-if="show">
+      <v-col v-if="show" cols>
         <Mensajeria />
         <v-col cols sm="9" class="mx-auto mt-5">
           <Animation4 class="mt-5 mb-5" />
@@ -33,6 +33,7 @@
 </template>
 
 <script>
+import Alert from '@/components/Alert'
 import Skills from '@/components/Skills'
 import Redes from '@/components/Redes'
 import Animation4 from '@/components/Animation4'
@@ -50,18 +51,19 @@ export default {
     Mensajeria,
     Skills,
     Redes,
-    Animation4
+    Animation4,
+    Alert
     // DialogMoralis,
     // Interactivit0y
   },
+  data: () => ({
+    show: false
+  }),
   mounted() {
     setTimeout(() => {
       this.show = true
     }, 1000);
   },
-  data: () => ({
-    show: false
-  }),
 }
 </script>
 

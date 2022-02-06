@@ -18,7 +18,7 @@ export default {
             container: this.$refs.Container, // the dom element that will contain the animation
             renderer: 'svg',
             loop: true,
-            autoplay: false,
+            autoplay: true,
             name: 'el',
             path: 'https://assets5.lottiefiles.com/packages/lf20_dxfgfpmu.json' // the path to the animation json
         })

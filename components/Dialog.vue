@@ -5,7 +5,7 @@
       persistent
       max-width="390"
     >
-      <template v-slot:activator="{ on, attrs }">
+      <template #activator="{ on, attrs }">
         <v-btn
           color="red"
           dark
@@ -20,9 +20,9 @@
           Gracias por el Cafe!
           <v-spacer></v-spacer>
             <v-btn
+                v-if="mostrar"
                 color="green darken-1"
                 text
-                v-if="mostrar"
                 @click="login()"
             >
                 Conect
@@ -40,16 +40,16 @@
             <v-form>
                 <v-row>
                     <v-text-field
-                        label="Cuenta"
                         v-model="sendAccount"
+                        label="Cuenta"
                         placeholder="Num"
                         filled
                         disabled
                         dense
                     ></v-text-field>
                     <v-text-field
-                        label="Monto"
                         v-model="AmountValue"
+                        label="Monto"
                         placeholder="0"
                         filled
                         dense

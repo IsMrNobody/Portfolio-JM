@@ -59,12 +59,8 @@
 </template>
 
 <script>
-// import firebase from 'firebase/app'
-// import { db } from '@/plugins/firebase'
+// import lottie from 'lottie-web'
   export default {
-    //  firebase: {
-        // post: datosRef
-      // },
     data: () => ({
         name: '',
         email: '',
@@ -73,14 +69,23 @@
 
     methods: {
       enviar() {
-        // const data = [this.name, this.email, this.mensaje, ]
-          try {
-            // datosRef.push([data])
-            // updates['/posts/'] = data;
-          } catch (error) {
-               console.log(error.message); 
+          if(this.mensaje){
+              try {
+              this.$fire.firestore.collection("mensajes").doc().set({
+                name: this.name,
+                email: this.email,
+                mensaje: this.mensaje
+              })
+              this.$store.dispatch('alert/activAlert', true)
+              this.name = ''
+              this.email = ''
+              this.mensaje = ''
+            } catch (error) {
+                console.log(error.message); 
+            }
+          } else {
+            alert('Plesea send a message')
           }
-          console.log(this.data)
         },
     },
   }

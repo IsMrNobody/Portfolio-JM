@@ -17,18 +17,18 @@ export default {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            name: 'el2',
-            path: 'https://assets8.lottiefiles.com/packages/lf20_hsowzqmc.json' // the path to the animation json
+            name: 'tierra',
+            path: 'https://assets4.lottiefiles.com/packages/lf20_rm0lkgbp.json' // the path to the animation json
         })
     },
     methods: {
         play(){
             lottie.setDirection(1)
-            lottie.play('el2')
+            lottie.play('tierra')
         },
         stop(){
-            lottie.setDirection(-1)
-            lottie.stop('el2')
+            // lottie.setDirection(-1)
+            lottie.stop('tierra') 
         }
     }
 }
@@ -36,15 +36,6 @@ export default {
 
 <style scoped>
 .tam {
-    position: absolute;
-    transition: 1s;
-    left: 0px;
-    top: 0px;
-    width: 200px;
-}
-.tam:hover {
-    left: 0px;
-    top: 10px;
-    width: 250px;
+    width: 300px;
 }
 </style>

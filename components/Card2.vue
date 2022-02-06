@@ -19,7 +19,7 @@
         </v-card>
         </transition>
           <transition name="carta">
-        <v-card class="ma-5 bg" outlined v-if="show">
+        <v-card v-if="show" class="ma-5 bg" outlined>
             <v-card-text class="black">
                 <v-card-title class="title">Tools</v-card-title>
                     <Tools />

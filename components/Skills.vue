@@ -6,7 +6,7 @@
                     data-tilt-max-glare="0.3"
                     data-tilt-glare
                 >
-            <nuxt-link to="/elements">
+            <nuxt-link to="/animations">
                     <!-- data-tilt-full-page-listening -->
                     <v-card
                         height="340"
@@ -21,7 +21,6 @@
                 </Tilt>
                 <Tilt
                     data-tilt-max-glare="0.3"
-                    data-tilt-glare
                 >
                     <!-- data-tilt-full-page-listening -->
                     <v-card
@@ -29,7 +28,7 @@
                         class="bg ma-4"
                     >
                         <v-card-text class="text-center">
-                            <p>Web Development</p>
+                            <p>AR - Aumented Reality</p>
                         <Animation2 class="ani" />
                         </v-card-text>
                     </v-card>
@@ -75,7 +74,7 @@ export default {
      transition-duration: 1s;
 }
 .ani:hover {
-     transform: translateZ(60px);
+    transform: translateZ(60px);
 }
 .bg {
     transform-style: preserve-3d;

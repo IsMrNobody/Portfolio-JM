@@ -62,7 +62,7 @@
                   {{ works[model].name }}
                 </h3>
                 <p>{{ works[model].des }}</p>
-                <v-btn :to="works[model].web" large outlined color="orange">IR</v-btn>
+                <v-btn :to="works[model].web" target="_blank" large outlined color="orange">IR</v-btn>
             </v-col>
           </v-row>
             <v-col class="d-flex justify-end">
@@ -93,7 +93,7 @@
           des: 'Galeria de Arte y Diseño digital',
           bg: `${'bgwork2'}`,
           // logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Fori2.png?alt=media&token=75b2d622-d439-4427-9987-b4bb90988b90',
-          web: 'orion-gallery.com'
+          web: 'https://orion-gallery.netlify.app/'
         },
         {
           img: `${'bg'}`,
