@@ -46,7 +46,7 @@
             <v-parallax
                 height="250"
                 :class="{parall: parallAct}"
-                src="https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/portfolio%2Fbanner-path.png?alt=media&token=5a570c55-e92a-4af4-8532-d0a41c1079ea"
+                src="https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/banner-path-2.png?alt=media&token=4693c254-0940-4f24-a1f8-0b9243bcc59e"
             >
                 <div class="posFot text-center">
                     <!-- <v-row justify="center"> -->
@@ -55,7 +55,7 @@
                 </div>
                 <div class="bgbl"></div>
                 <v-col class="posFot2">
-                    <p class="justify">Path <br> Proyecto de Arte y Diseño digital, creaciòn web personal como portafolio web</p>
+                    <p class="justify">Path <br> Diseño y animación de complementos gráficos 2D y 3D para videojuego de alquimia</p>
                     <v-btn @click="vergaleryPath(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn>
                 </v-col>
             </v-parallax>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="bgbl"></div>
                 <v-col class="posFot2">
-                    <p class="justify">Orakler <br> Proyecto de Arte y Diseño digital, creaciòn web personal como portafolio web</p>
+                    <p class="justify">Orakler <br>Animaciòn de Tarjetas NFT con personajes del videojuego</p>
                     <v-btn @click="vergaleryOrak(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn>
                 </v-col>
             </v-parallax>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="bgbl"></div>
                 <v-col class="posFot2">
-                    <p class="justify">Elements <br> Proyecto de Arte y Diseño digital, creaciòn web personal como portafolio web</p>
+                    <p class="justify">Elements <br> Diseño y animación de mascotas NFT`s para viedeojuego blockchain</p>
                     <v-btn @click="vergaleryTierra(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn>
                 </v-col>
             </v-parallax>
