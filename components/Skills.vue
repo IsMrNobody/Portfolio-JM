@@ -6,7 +6,7 @@
                     data-tilt-max-glare="0.3"
                     data-tilt-glare
                 >
-            <nuxt-link to="/animations">
+            <nuxt-link to="/animations" class="styl">
                     <!-- data-tilt-full-page-listening -->
                     <v-card
                         height="340"
@@ -19,6 +19,7 @@
                     </v-card>
             </nuxt-link>
                 </Tilt>
+            <nuxt-link to="/aumented-reality" class="styl">
                 <Tilt
                     data-tilt-max-glare="0.3"
                 >
@@ -33,6 +34,7 @@
                         </v-card-text>
                     </v-card>
                 </Tilt>
+            </nuxt-link>
                 <Tilt
                     data-tilt-max-glare="0.1"
                     data-tilt-glare
@@ -96,5 +98,8 @@ p {
 h3 {
     font-family: 'Outfit', sans-serif;
     font-size: 2em;
+}
+.styl {
+    text-decoration: none;
 }
 </style>

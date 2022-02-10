@@ -1,15 +1,15 @@
 <template>
     <div>
-        <Cardanima />
+        <Gallery />
     </div>
 </template>
 
 <script>
-import Cardanima from '@/components/Cardanima.vue'
+import Gallery from '@/components/aumented-reality/Gallery'
 
 export default ({
     components: {
-        Cardanima
+        Gallery
     },
     layout: 'Aumented'
 })

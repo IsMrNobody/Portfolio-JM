@@ -55,7 +55,7 @@
             class="d-none d-sm-flex"
           >
             <v-col align="center" class="mt-5">
-                <!-- <v-img width="180" :src="works[model].logo"></v-img> -->
+                <v-img width="200" :src="works[model].logo"></v-img>
             </v-col>
             <v-col class="" align-xs="end">
                 <h3 class="text-h6 mt-5">
@@ -94,6 +94,14 @@
           bg: `${'bgwork2'}`,
           // logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Fori2.png?alt=media&token=75b2d622-d439-4427-9987-b4bb90988b90',
           web: 'https://orion-gallery.netlify.app/'
+        },
+        {
+          img: `${'bg4'}`,
+          name: 'Path of Alchemist',
+          des: 'Diseño y Animaciones web para videojuego blockchain',
+          bg: `${'bgwork4'}`,
+          logo: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/portfolio%2Flogooo.png?alt=media&token=7791606e-1d0b-406d-87f2-9b6d34e42fe7',
+          web: ''
         },
         {
           img: `${'bg'}`,
@@ -136,11 +144,18 @@
   background-image: url('https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Felm.png?alt=media&token=4d8519a1-8f7a-4001-8e36-48b92fad895f');
   background-size: cover;
 }
+.bg4 {
+  /* orion */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/path.png?alt=media&token=fdf189d4-5f75-4b28-b6d6-cb1371dfd045');
+  background-size: cover;
+}
 .fond {
 background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(28,27,26,1) 49%, rgba(0,0,0,1) 90%);
 }
 .borde {
+  margin-top: 80px;
+  margin-bottom: 100px;
   border: 1px orange solid;
   max-width: 900px;
 }
@@ -159,6 +174,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(28,27,26,1) 49%, rgba
 .bgwork3 {
   background-size: cover;
   background-image: url('https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2F02.png?alt=media&token=ffd5926e-742e-4707-b272-20312406242e');
+}
+.bgwork4 {
+  background-size: cover;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/banner-path-2.png?alt=media&token=4693c254-0940-4f24-a1f8-0b9243bcc59e');
 }
 .logo{
   transition: 0.51s;

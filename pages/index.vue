@@ -1,21 +1,23 @@
 <template>
-  <v-row>
+  <div>
+    <transition name="cart">
+      <v-row v-if="show">
+          <Skills />
+      </v-row>
+    </transition>
     <v-row>
       <Alert />
     </v-row>
-    <v-col cols sm="6">
-      <Card1 />
-    </v-col>
-    <v-col cols sm="6">
-      <Card2 />
-    </v-col>
-    <transition name="cart">
-      <v-col v-if="show">
-        <Skills />
+    <v-row>
+      <v-col cols sm="6">
+        <Card1 />
       </v-col>
-    </transition>
+      <v-col cols sm="6">
+        <Card2 />
+      </v-col>
+    </v-row>
     <transition name="cart">
-      <v-col v-if="show" cols="12">
+      <v-col cols="12">
         <Slider />
       </v-col>
     </transition>
@@ -29,7 +31,7 @@
         <p class="text-center">millanquintana9@gmail.com</p>
       </v-col>
     </transition>
-  </v-row>
+  </div>
 </template>
 
 <script>

@@ -67,7 +67,7 @@
                     <div class="caro text-center">
                         <v-btn @click="vergaleryOrak(), parallAct = !parallAct" text small fab class="mx-end">x</v-btn>
                         <CarouselOrak />
-                        <v-btn outlined color="white" class="mt-5">ver mas</v-btn>
+                        <!-- <v-btn outlined color="white" class="mt-5">ver mas</v-btn> -->
                         <!-- <h3 class="mt-3">www.oriongallery.com</h3> -->
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                     <div class="caro text-center">
                         <v-btn @click="vergaleryTierra(), parallAct = !parallAct" text small fab class="mx-end">x</v-btn>
                         <CarouselTierra />
-                        <nuxt-link to="/elements">
+                        <nuxt-link to="/elements" class="deco">
                             <v-btn outlined color="white" class="mt-5">ver mas</v-btn>
                         </nuxt-link>
                     </div>
@@ -281,6 +281,9 @@ export default ({
     opacity: 0.5;
 }
 .txt {
+    text-decoration: none;
+}
+.deco {
     text-decoration: none;
 }
 </style>

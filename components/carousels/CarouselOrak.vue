@@ -1,6 +1,6 @@
 <template>
   <div>
-    <iframe width="600" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" frameborder="0"></iframe>
+    <iframe width="100%" height="330" src="https://www.youtube.com/embed/GQ15PRhhYZI?autoplay=1" title="Animation NFT Cards" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </template>
 

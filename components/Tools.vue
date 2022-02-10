@@ -56,6 +56,9 @@
           },
           {
               logo: 'https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Flogos%20programas%2Fsp.png?alt=media&token=6c459162-2040-4176-8b05-032049ddd62e'
+          },
+          {
+              logo: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/ar.png?alt=media&token=8b01ce62-10f3-4070-a8ef-96d0a5cafd7a'
           }
       ]
     }),
