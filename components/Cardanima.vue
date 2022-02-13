@@ -5,17 +5,6 @@
             <p>Diseño y animacion 2D para aplicaciones web y videojuegos</p>
         </v-col>
         <v-col class="marg">
-            <transition name="galery">
-                <div v-if="galery" class="cent">
-                    <div class="caro text-center">
-                        <v-btn @click="vergalery(), parallAct = !parallAct" text small fab class="mb-1">x</v-btn>
-                        <Carousel />
-                        <a href="https://cutt.ly/WxluC3n" target="_blank" class="txt">
-                            <h3 class="mt-3">www.oriongallery.com</h3>
-                        </a>
-                    </div>
-                </div>
-            </transition>
             <v-parallax
                 height="250"
                 :class="{parall: parallAct}"
@@ -28,21 +17,13 @@
                 <div class="bgbl"></div>
                 <v-col class="posFot2">
                     <p class="justify">Orion gallery <br> Proyecto de Arte y Diseño digital, creaciòn web personal como portafolio web</p>
-                    <v-btn @click="vergalery(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn>
+                    <Carousel />
+                    <!-- <v-btn @click="vergalery(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn> -->
                 </v-col>
             </v-parallax>
         </v-col>
 
         <v-col class="marg">
-            <transition name="galery">
-                <div v-if="galeryPath" class="cent">
-                    <div class="caro text-center">
-                        <v-btn @click="vergaleryPath(), parallAct = !parallAct" text small fab class="mx-end">x</v-btn>
-                        <CarouselPath />
-                        <v-btn outlined color="white" class="mt-5">ver mas</v-btn>
-                    </div>
-                </div>
-            </transition>
             <v-parallax
                 height="250"
                 :class="{parall: parallAct}"
@@ -56,26 +37,16 @@
                 <div class="bgbl"></div>
                 <v-col class="posFot2">
                     <p class="justify">Path <br> Diseño y animación de complementos gráficos 2D y 3D para videojuego de alquimia</p>
-                    <v-btn @click="vergaleryPath(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn>
+                    <CarouselPath />
+                    <!-- <v-btn @click="vergaleryPath(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn> -->
                 </v-col>
             </v-parallax>
         </v-col>
         
         <v-col class="marg">
-            <transition name="galery">
-                <div v-if="galeryOrak" class="cent">
-                    <div class="caro text-center">
-                        <v-btn @click="vergaleryOrak(), parallAct = !parallAct" text small fab class="mx-end">x</v-btn>
-                        <CarouselOrak />
-                        <!-- <v-btn outlined color="white" class="mt-5">ver mas</v-btn> -->
-                        <!-- <h3 class="mt-3">www.oriongallery.com</h3> -->
-                    </div>
-                </div>
-            </transition>
             <v-parallax
                 height="250"
                 :class="{parall: parallAct}"
-                class="wid"
                 src="https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/banner-orakler.png?alt=media&token=c8149f84-ea8b-461a-aa8c-1a67ef53f3fb"
             >
                 <div class="posFot text-center">
@@ -84,23 +55,13 @@
                 <div class="bgbl"></div>
                 <v-col class="posFot2">
                     <p class="justify">Orakler <br>Animaciòn de Tarjetas NFT con personajes del videojuego</p>
-                    <v-btn @click="vergaleryOrak(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn>
+                    <CarouselOrak />
+                    <!-- <v-btn @click="vergaleryOrak(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn> -->
                 </v-col>
             </v-parallax>
         </v-col>
 
         <v-col class="marg">
-            <transition name="galery">
-                <div v-if="galeryTierra" class="cent">
-                    <div class="caro text-center">
-                        <v-btn @click="vergaleryTierra(), parallAct = !parallAct" text small fab class="mx-end">x</v-btn>
-                        <CarouselTierra />
-                        <nuxt-link to="/elements" class="deco">
-                            <v-btn outlined color="white" class="mt-5">ver mas</v-btn>
-                        </nuxt-link>
-                    </div>
-                </div>
-            </transition>
             <v-parallax
                 height="250"
                 :class="{parall: parallAct}"
@@ -115,7 +76,8 @@
                 <div class="bgbl"></div>
                 <v-col class="posFot2">
                     <p class="justify">Elements <br> Diseño y animación de mascotas NFT`s para viedeojuego blockchain</p>
-                    <v-btn @click="vergaleryTierra(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn>
+                    <CarouselTierra />
+                    <!-- <v-btn @click="vergaleryTierra(), parallAct = !parallAct" class="mt-5" outlined color="white">ver</v-btn> -->
                 </v-col>
             </v-parallax>
         </v-col>
@@ -203,7 +165,7 @@ export default ({
 }
 .posFot2 {
     position: absolute;
-    margin: 0 0% 43%;
+    margin: 0 0% 350px;
     width: 250px;
     height: 250px;
     z-index: 2;
@@ -244,7 +206,6 @@ export default ({
 }
 .cent {
     position: absolute;
-    width: 600px;
     z-index: 2;
 }
 .galery-enter-active {

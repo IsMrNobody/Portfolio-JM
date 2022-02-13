@@ -1,6 +1,7 @@
 <template>
   <v-app dark>
     <v-navigation-drawer
+      v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
       fixed
@@ -31,7 +32,7 @@
       class="black"
       app
     >
-      <!-- <v-app-bar-nav-icon @click.stop="drawer = !drawer" /> -->
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-btn
         icon
         @click.stop="miniVariant = !miniVariant"
@@ -96,7 +97,7 @@ export default {
   data () {
     return {
       clipped: false,
-      drawer: false,
+      drawer: true,
       fixed: false,
       items: [
         {
@@ -111,14 +112,14 @@ export default {
         },
         {
           icon: 'mdi-star-settings',
-          title: 'AR',
+          title: 'AR - Aumented Reality',
           to: '/aumented-reality'
         }
       ],
-      miniVariant: false,
+      miniVariant: true,
       right: true,
       rightDrawer: false,
-      title: 'aumented'
+      title: '@ismrnobody'
     }
   }
 }

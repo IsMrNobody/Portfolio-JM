@@ -1,7 +1,7 @@
 <template>
   <div>
     <transition name="cart">
-      <v-row v-if="show">
+      <v-row>
           <Skills />
       </v-row>
     </transition>
@@ -22,7 +22,7 @@
       </v-col>
     </transition>
     <transition name="cart">
-      <v-col v-if="show" cols>
+      <v-col cols>
         <Mensajeria />
         <v-col cols sm="9" class="mx-auto mt-5">
           <Animation4 class="mt-5 mb-5" />
@@ -59,13 +59,9 @@ export default {
     // Interactivit0y
   },
   data: () => ({
-    show: false
-  }),
-  mounted() {
-    setTimeout(() => {
-      this.show = true
-    }, 1000);
-  },
+    show: false,
+    showe: false
+  })
 }
 </script>
 

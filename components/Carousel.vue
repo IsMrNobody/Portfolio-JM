@@ -1,11 +1,35 @@
 <template>
-  <v-carousel hide-delimiters height="300">
-    <v-carousel-item
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.src"
-    ></v-carousel-item>
-  </v-carousel>
+  <div>
+      <v-dialog
+        v-model="dialog"
+        width="750"
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            outlined
+            dark
+            v-bind="attrs"
+            v-on="on"
+          >
+            Gallery
+          </v-btn>
+        </template>
+
+        <v-carousel hide-delimiters>
+          <v-carousel-item
+            v-for="(item,i) in items"
+            :key="i"
+            :src="item.src"
+          ></v-carousel-item>
+        </v-carousel>
+        <div class="text-center black">
+          <a href="https://orion-gallery.netlify.app/" class="deco orange--text" target="_blank">www.oriongallery.com</a>
+          <!-- <nuxt-link to="/" class="deco">
+              <v-btn outlined color="white" class="mt-2 mb-2">ver mas</v-btn>
+          </nuxt-link>         -->
+        </div>
+      </v-dialog>
+    </div>
 </template>
 
 <script>
@@ -36,3 +60,9 @@
     },
   }
 </script>
+
+<style scoped>
+.deco {
+  text-decoration: none;
+}
+</style>
