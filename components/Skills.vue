@@ -29,7 +29,7 @@
                         class="bg ma-4"
                     >
                         <v-card-text class="text-center">
-                            <p>AR - Aumented Reality</p>
+                            <p>AR - Augmented Reality</p>
                         <Animation2 class="ani" />
                         </v-card-text>
                     </v-card>

@@ -51,7 +51,7 @@
       >
         <v-icon>mdi-minus</v-icon>
       </v-btn> -->
-      <v-toolbar-title class="mx-auto" v-text="title" />
+      <!-- <v-toolbar-title class="mx-auto" v-text="title" /> -->
       <!-- <v-spacer />
       <v-btn
         icon
@@ -61,9 +61,9 @@
       </v-btn> -->
     </v-app-bar>
     <v-main class="bag">
-      <v-container>
+      <!-- <v-container> -->
         <Nuxt />
-      </v-container>
+      <!-- </v-container> -->
     </v-main>
     <v-navigation-drawer
       v-model="rightDrawer"
