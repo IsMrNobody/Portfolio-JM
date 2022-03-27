@@ -128,13 +128,13 @@ export default {
                 },
                 {
                     name: 'Path of Alchemist',
-                    qr: 'https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.instagram.com%2Far%2F306298788143346%2F%3Fch%3DMDFjOTE2ODFiNWJmZmU0MGExYjA5NTJjZWNjZWRhMDc%253D&chs=180x180&choe=UTF-8&chld=L|2',
+                    qr: 'https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.instagram.com%2Far%2F650670312689208%2F%3Fch%3DM2VlMmM2MmQ0YTU1ZWEzN2NlYmQyM2U0NTk1ZmM4YmQ%253D&chs=180x180&choe=UTF-8&chld=L|2',
                     img: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/portfolio%2Fcarousel%20path%2Fcapa%204.png?alt=media&token=f6dac9c8-bf74-430a-bc7a-861ad32401b0',
                     img2: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/portfolio%2Fpost_academia-2.png?alt=media&token=ab1b82db-0f82-4075-8a6f-9d590c68abeb'
                 },
                 {
                     name: 'Arcane',
-                    qr: 'https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.instagram.com%2Far%2F277149157860993%2F%3Fch%3DNTgyMzYxZWU4Y2RmNWU1NTViNGMwYWVhODNkNWE0ZTA%253D&chs=180x180&choe=UTF-8&chld=L|2',
+                    qr: 'https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.instagram.com%2Far%2F942010949809981%2F%3Fch%3DMWU1NGYzMWNiNGFkNzY5NDVlNjhmMGQ1NWYxMTc2YTQ%253D&chs=180x180&choe=UTF-8&chld=L|2',
                     img: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/arcane-granade.png?alt=media&token=9cb3000b-4e33-4fe2-a993-f902ea1393a8',
                     img2: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/arcane-granade-2.png?alt=media&token=e2a32873-4187-4202-8cbb-f59b722442f8'
                 }
