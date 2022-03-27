@@ -1,16 +1,20 @@
 <template>
     <v-col>
-        <v-row justify="center">
-                <v-img height="550">
-                    <video width="100%" loop autoplay src="https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/banner%20animations-2.mp4?alt=media&token=888bd047-ffbc-4a4f-85ec-d1e6ba79e54c">
-                    </video>
-                </v-img>
-                <div class="text-center">
-                    <h2 class="mt-5">Desing and Animations</h2>
-                    <p>Diseño y animacion 2D para aplicaciones web y videojuegos</p>
-                </div>
-        </v-row>
-        <v-col class="mx-auto" cols="9">
+        <div>
+            <v-row justify="center">
+                <v-col>
+                    <div>
+                        <video width="100%" loop autoplay src="https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/banner%20animations-2.mp4?alt=media&token=888bd047-ffbc-4a4f-85ec-d1e6ba79e54c">
+                        </video>
+                    </div>
+                    <div class="text-center">
+                        <h2 class="mt-5">Desing and Animations</h2>
+                        <p>Diseño y animacion 2D para aplicaciones web y videojuegos</p>
+                    </div>
+                </v-col>
+            </v-row>
+        </div>
+        <v-col class="mx-auto marg" cols="9">
             <v-parallax
                 height="250"
                 :class="{parall: parallAct}"

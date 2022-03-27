@@ -19,7 +19,7 @@
                     </v-card>
             </nuxt-link>
                 </Tilt>
-            <nuxt-link to="/aumented-reality" class="styl">
+            <nuxt-link to="/augmented-reality" class="styl">
                 <Tilt
                     data-tilt-max-glare="0.3"
                 >
@@ -35,21 +35,23 @@
                     </v-card>
                 </Tilt>
             </nuxt-link>
-                <Tilt
-                    data-tilt-max-glare="0.1"
-                    data-tilt-glare
-                >
-                    <!-- data-tilt-full-page-listening -->
-                    <v-card
-                        height="340"
-                        class="bg ma-4"
+            <nuxt-link to="/illustrations" class="styl">
+                    <Tilt
+                        data-tilt-max-glare="0.1"
+                        data-tilt-glare
                     >
-                        <v-card-text class="text-center">
-                            <p>Ilustration Digital</p>
-                            <Animation3 class="ani" />
-                        </v-card-text>
-                    </v-card>
-                </Tilt>
+                        <!-- data-tilt-full-page-listening -->
+                        <v-card
+                            height="340"
+                            class="bg ma-4"
+                        >
+                            <v-card-text class="text-center">
+                                <p>Ilustration Digital</p>
+                                <Animation3 class="ani" />
+                            </v-card-text>
+                        </v-card>
+                    </Tilt>
+            </nuxt-link>
         </v-row>
     </v-col>
 </template>

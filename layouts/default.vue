@@ -58,9 +58,9 @@
       </v-btn> -->
     </v-app-bar>
     <v-main class="bag">
-      <v-container>
+      <!-- <v-container> -->
         <Nuxt />
-      </v-container>
+      <!-- </v-container> -->
     </v-main>
     <v-navigation-drawer
       v-model="rightDrawer"

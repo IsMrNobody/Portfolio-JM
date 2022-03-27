@@ -112,8 +112,13 @@ export default {
         },
         {
           icon: 'mdi-star-settings',
-          title: 'AR - Aumented Reality',
-          to: '/aumented-reality'
+          title: 'AR - Augmented Reality',
+          to: '/augmented-reality'
+        },
+        {
+          icon: 'mdi-image',
+          title: 'Digital Art',
+          to: '/illustrations'
         }
       ],
       miniVariant: true,

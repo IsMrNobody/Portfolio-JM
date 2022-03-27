@@ -122,7 +122,7 @@ export default {
             cards: [
                 {   
                     name: 'Orion Gallery',
-                    qr: 'https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.instagram.com%2Far%2F1076808036507906%2F%3Fch%3DODJhYjU3ZDFkYTgwYzAxZTAyYTZjNDhkYWNjZWVmN2I%253D&chs=180x180&choe=UTF-8&chld=L|2',
+                    qr: 'https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fwww.instagram.com%2Far%2F976725169642373%2F%3Fch%3DMjU5MDUwNTU4NzZmMjViODdiMTk1YjkzOThjOWQwYTI%253D&chs=180x180&choe=UTF-8&chld=L|2',
                     img: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/banner-rion.png?alt=media&token=30a84d25-c5c8-499e-b4c1-4d7a3b09035f',
                     img2: 'https://firebasestorage.googleapis.com/v0/b/orion-gallery-116f8.appspot.com/o/portfolio%2FWallpaper-orion.png?alt=media&token=f4be370c-c7f5-4818-9212-dc3a5466e503'
                 },

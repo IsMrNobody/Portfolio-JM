@@ -8,11 +8,11 @@
     <v-row>
       <Alert />
     </v-row>
-    <v-row>
-      <v-col cols sm="6">
+    <v-row justify="center">
+      <v-col cols sm="4">
         <Card1 />
       </v-col>
-      <v-col cols sm="6">
+      <v-col cols sm="4">
         <Card2 />
       </v-col>
     </v-row>
