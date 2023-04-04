@@ -13,7 +13,7 @@
                   <v-avatar size="170">
                     <v-img
                         width="300"
-                        src="https://firebasestorage.googleapis.com/v0/b/ssr-webicultores.appspot.com/o/JM%2Fpf3.jpg?alt=media&token=f0afc7ab-ea54-4ff4-8467-5c02d1339a94"
+                        src="https://res.cloudinary.com/dku13l2ep/image/upload/v1680556795/nobody/descarga_17_ryc35v.png"
                     >
                     </v-img>
                   </v-avatar>
