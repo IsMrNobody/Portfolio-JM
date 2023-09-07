@@ -47,23 +47,23 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    [
-      '@nuxtjs/firebase',
-      {
-        config: {
-          apiKey: 'AIzaSyDtoLjJRD2wu94gpK_KQB31v6OIdGkSYMg',
-          authDomain: 'orion-gallery-116f8.firebaseapp.com',
-          projectId: 'orion-gallery-116f8',
-          storageBucket: 'orion-gallery-116f8.appspot.com',
-          messagingSenderId: '872124384806',
-          appId: '1:872124384806:web:ba65b1a95eda03b4bcc8e7'
-        },
-        services: {
-          firestore: true,
-          auth: true // Just as example. Can be any other service.
-        }
-      }
-    ]
+    // [
+    //   '@nuxtjs/firebase',
+    //   {
+    //     config: {
+    //       apiKey: 'AIzaSyDtoLjJRD2wu94gpK_KQB31v6OIdGkSYMg',
+    //       authDomain: 'orion-gallery-116f8.firebaseapp.com',
+    //       projectId: 'orion-gallery-116f8',
+    //       storageBucket: 'orion-gallery-116f8.appspot.com',
+    //       messagingSenderId: '872124384806',
+    //       appId: '1:872124384806:web:ba65b1a95eda03b4bcc8e7'
+    //     },
+    //     services: {
+    //       firestore: true,
+    //       auth: true
+    //     }
+    //   }
+    // ]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
